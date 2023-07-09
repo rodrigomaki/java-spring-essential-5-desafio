@@ -1,7 +1,9 @@
 package com.desafio.componentes.services;
 
 import com.desafio.componentes.entities.Order;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ShippingService {
 
     public double shipment(Order order) {
