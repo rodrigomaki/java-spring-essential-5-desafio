@@ -1,7 +1,5 @@
 package com.desafio.componentes.entities;
 
-import org.springframework.stereotype.Component;
-
 public class Order {
 
     private Integer code;
